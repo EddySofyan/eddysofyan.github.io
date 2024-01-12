@@ -44,12 +44,12 @@ $(window).scroll(function(){
 		'transform' : 'translate(0px, '+wScroll/1.2+'%)'
 	});
 
-	// portfolio
-	if(wScroll > $('.portfolio').offset().top -200) {
-		$('.portfolio .thumbnail').each(function(i){
+	// certificate
+	if(wScroll > $('.certificate').offset().top -200) {
+		$('.certificate .thumbnail').each(function(i){
 			setTimeout(function(){
 				console.log('ok');
-				$('.portfolio .thumbnail').eq(i).addClass('muncul');
+				$('.certificate .thumbnail').eq(i).addClass('muncul');
 
 			}, 300 * (i+1));
 		});
