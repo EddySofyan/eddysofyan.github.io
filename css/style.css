@@ -53,17 +53,17 @@ section{
 }
 
 
-.portfolio{
+.certificate{
 	background-color: #eee;
 }
 
-.portfolio .thumbnail{
+.certificate .thumbnail{
 	opacity: 0;
 	transform: translate( 0, -40px);
 	transition: .5s;
 }
 
-.portfolio .thumbnail.muncul{
+.certificate .thumbnail.muncul{
 	opacity: 1;
 	transform: translate( 0, 0);
 }
