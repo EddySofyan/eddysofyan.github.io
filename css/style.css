@@ -33,10 +33,6 @@ hr{
 	border-top: 2px solid #999;
 }
 
-section{
-	min-height: 600px;
-}
-
 .pkiri, .pkanan{
 	opacity: 0;
 	transform: translate(-50px , 0) rotate(15deg);
@@ -52,6 +48,9 @@ section{
 	transform: translate(0,0);
 }
 
+.project{
+	min-height: 600px;
+}
 
 .certificate{
 	background-color: #eee;
