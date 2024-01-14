@@ -13,13 +13,13 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 0px -180px;
-	color: #ba25fa;
+	color: #D3D3D3;
 	overflow: hidden;
 }
 
 .jumbotron img{
 	width: 200px;
-	border: 5px solid #ba25fa;
+	border: 5px solid #D3D3D3;
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
